@@ -18,7 +18,7 @@ The repository establishes a structured analytical framework connecting four seq
 Financial Resources  ──▶  Investment Decisions  ──▶  Squad / Team Inputs  ──▶  Sporting Performance
 ```
 
-While the repository provides a broader conceptual foundation for sports finance and performance research, the current empirical project focuses on a single club over an intensive decade.
+While the repository provides a general conceptual foundation for sports finance and sporting performance inquiries, all currently completed empirical work is strictly confined to a single-club longitudinal case study.
 
 ---
 
@@ -28,10 +28,10 @@ The inaugural empirical study within this repository is a longitudinal case stud
 
 $$\textbf{2015/16–2024/25 (10 completed football seasons)}$$
 
-The ongoing 2025/26 season is strictly excluded to prevent partial-year survivorship distortions and incomplete financial reporting.
+The study is restricted to the pre-specified period 2015/16–2024/25; 2025/26 is outside the locked research design.
 
 ### Core Empirical Focus
-The case study analyzes how changes in Arsenal's corporate revenue generation, operating cash flows, debt facilities, and staff payroll commitments relate to transfer market activity, player registration amortisation, squad market valuation, and on-pitch sporting outcomes.
+The case study analyzes how changes in Arsenal's corporate revenue generation, cash balances, gross and net debt, operating and net profit/loss, and statutory staff costs relate to transfer market expenditures, player registration amortisation, derived financial commitment ratios, and on-pitch sporting outcomes.
 
 ### Associational Research Design & Non-Causality
 - **Observational Design:** The current project is an **associational longitudinal case study and does not establish causality**. 
@@ -42,30 +42,33 @@ The case study analyzes how changes in Arsenal's corporate revenue generation, o
 
 ## 3. Four-Layer Analytical Framing
 
-The research structure investigates the following empirical dimensions:
+The research structure investigates the following empirical dimensions using only variables measured and documented in the frozen master panel:
 
 ```text
 ┌─────────────────────────┐
-│   Financial Resources   │  Turnover (Matchday, Broadcasting, Commercial), Operating Cash Flow,
-└────────────┬────────────┘  Net Debt, Shareholder Financing, Total Staff Costs
+│   Financial Resources   │  Football Turnover (Matchday, Broadcasting, Commercial),
+└────────────┬────────────┘  Cash Balances, Gross & Net Debt, Total Staff Costs,
+             │              Operating Profit/Loss, Net Profit/Loss, Net Finance Costs
              ▼
 ┌─────────────────────────┐
-│  Investment Decisions   │  Gross Transfer Expenditure, Net Transfer Spend, Player Registration
-└────────────┬────────────┘  Amortisation, Disposal Profits, Capital Investment Timing
+│  Investment Decisions   │  Permanent Gross Transfer Spend, Loan Fees, Total Consideration,
+└────────────┬────────────┘  Transfer Income, Net Transfer Spend, Player Registration Additions
              ▼
 ┌─────────────────────────┐
-│   Squad / Team Inputs   │  Squad Market Valuation, Wage-to-Turnover Ratio, Squad Depth,
-└────────────┬────────────┘  Squad Age Profiles, Retention vs. Renewal Cycles
+│   Squad / Team Inputs   │  Wage-to-Revenue Ratio, Player Registration Amortisation,
+└────────────┬────────────┘  Player Registration Net Book Value (NBV), Transfer-to-Revenue Ratios,
+             │              Transaction Counts (Incoming/Outgoing, Permanent/Loan)
              ▼
 ┌─────────────────────────┐
-│  Sporting Performance   │  Realized Outcomes: Points Per Game (PPG), Points %, League Rank;
-└─────────────────────────┘  Structural Metrics: Goal Difference, Expected Goals (xG, xGD, xPTS)
+│  Sporting Performance   │  Official Results: Points, Points Per Game (PPG), League Position,
+└─────────────────────────┘  Goal Difference, Domestic & European Cup Progression;
+                             Analytical Metrics: Expected Goals (xG, xGA, xGD), xPTS, PPDA
 ```
 
-1. **Financial Resources:** Audited statutory financial metrics capturing top-line revenue scale, liquidity, operating profitability, capital debt obligations, and overall wage commitments.
-2. **Investment Decisions:** Capital allocation choices regarding player acquisitions, net expenditure, and accounting amortisation commitments across successive transfer windows.
-3. **Squad / Team Inputs:** Structural team capabilities, squad valuation dynamics, age profile transitions, and allocation efficiency ratios.
-4. **Sporting Performance:** Realized competition results (league points, table finish, domestic/European cup progression) as well as underlying structural performance metrics (expected goals, expected points).
+1. **Financial Resources:** Audited statutory financial metrics from Companies House filings capturing football turnover (disaggregated into matchday, broadcasting, and commercial streams), cash balances, gross debt, net debt, net finance costs, operating profit/loss, net profit/loss, and aggregate employee remuneration (`staff_costs`).
+2. **Investment Decisions:** Committed capital allocation in the transfer market, covering permanent gross transfer spend, loan fees, total transfer consideration, player disposal income, permanent net transfer spend, and capital additions to player registrations.
+3. **Squad / Team Inputs:** Financial allocation intensity and balance sheet squad asset commitments, measured via wage-to-revenue percentage, statutory player registration amortisation, amortisation-to-revenue ratio, player registration net book value (NBV), primary transfer spend-to-revenue percentage, net spend-to-revenue percentage, and transaction activity counts. *(Note: Unmeasured constructs such as subjective squad market valuations, individual player performance contributions, squad rejuvenation indices, or directly measured tactical quality are not part of the dataset).*
+4. **Sporting Performance:** Official competition outcomes (Premier League championship points, points per game [PPG], final league finishing position, goal difference, goals for/against, match win/draw/loss counts, FA Cup, League Cup, and European competition progression) alongside third-party advanced analytical metrics from Understat (expected goals [$xG$], expected goals against [$xGA$], expected goal difference [$xGD$], expected points [$xPTS$], passes per defensive action [$PPDA$], and possession percentage).
 
 ---
 
@@ -81,13 +84,15 @@ To ensure academic rigor, forensic reproducibility, and intellectual property co
 
 ## 5. Future Research Directions
 
-Future research extensions planned for this repository may include:
+A clear distinction is maintained between current completed empirical work and prospective extensions:
 
-- Applying the four-layer framework to comparative longitudinal case studies of additional European clubs across differing ownership and governance structures.
-- Investigating cross-sectional panels across multiple leagues to assess how differing regulatory environments (e.g., UEFA Financial Sustainability Regulations, domestic profitability rules) condition financial allocation.
-- Developing modular analytical code to test the interaction between structural process metrics (e.g., advanced expected goals models) and long-term balance sheet stability.
+- **Current Completed Empirical Work:** Confined strictly to the 10-season single-club associational longitudinal case study of Arsenal FC (2015/16–2024/25) across the locked 108-variable master panel.
+- **Future Research Directions:** Prospective extensions for the repository may explore:
+  - Applying the four-layer framework to comparative longitudinal case studies of additional European clubs across differing ownership models and financial environments.
+  - Cross-sectional panel studies evaluating wage-elasticity versus transfer-elasticity across UEFA Financial Fair Play (FFP) and Financial Sustainability Regulations (FSR) benchmarks.
+  - Methodological extensions examining multi-club panels or higher-frequency financial reporting where statutory data availability permits.
 
-*(Note: Multi-club, cross-league, and multi-decade empirical studies have **not** yet been conducted in this repository; they represent prospective future research avenues).*
+*(Note: Multi-club, cross-league, and multi-decade empirical studies have **not** been conducted; they represent prospective future research avenues).*
 
 ---
 
