@@ -115,8 +115,8 @@ sports-finance-performance/
 If you reference this framework, methodology, or the longitudinal case study in academic work, please cite:
 
 ```bibtex
-@misc{cavusoglu2026sportsfinance,
-  author       = {Ege Cavusoglu},
+@misc{ege2026sportsfinance,
+  author       = {Ege can},
   title        = {Sports Finance and Sporting Performance: A Longitudinal Investigation of Arsenal Football Club (2015/16--2024/25)},
   year         = {2026},
   publisher    = {GitHub},
