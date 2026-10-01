@@ -1,16 +1,16 @@
 # Financial Resources, Investment Decisions, and Sporting Performance: A Longitudinal Investigation of Arsenal Football Club (2015/16–2024/25)
 
-**Author:** Student Researcher  
-**Institutional Affiliation:** Department of Economics & Sports Analytics  
-**Research Standard:** Zero-Trust Forensic Data Architecture & Observational Longitudinal Case Study  
-**Study Scope:** Exactly 10 Completed Seasons (2015/16 through 2024/25; 2025/26 strictly excluded)  
-**Master Panel Hash (SHA-256):** `9b3f66070c87bb81892461c77ca9a7e5c5493e318a6310ad5a6c721d49697cd3`  
+**Author:** Ege Umut Can  
+**Academic Level:** Independent High-School Student Research Project  
+**School:** FMV Özel Ispartakule Işık High School, Istanbul (Class of 2027)  
+**Study Scope:** 10 Completed Premier League Seasons (2015/16 through 2024/25)  
+**Primary Sources:** Companies House Statutory Accounts (Arsenal Holdings Ltd), Transfer Census, and Premier League / Understat Analytics  
 
 ---
 
 ## Abstract
 
-This paper investigates the longitudinal relationship between financial resource availability, capital investment decisions, and sporting performance at Arsenal Football Club across ten completed seasons from 2015/16 through 2024/25. Constructing an immutable, forensic master panel dataset ($N=10$ annual observations; 108 variables) integrated across statutory audited corporate accounts (Arsenal Holdings Limited), a comprehensive transfer market census (128 transactions), and official match records combined with third-party advanced analytics (Understat), the study evaluates six pre-specified sub-research questions (SQ1–SQ6) using non-causal bivariate correlation methods and systematic Leave-One-Season-Out (LOO) robustness protocols. 
+This paper investigates the longitudinal relationship between financial resource availability, capital investment decisions, and sporting performance at Arsenal Football Club across ten completed seasons from 2015/16 through 2024/25. Constructing a standardized multi-source panel dataset ($N=10$ annual observations; 108 variables) integrated across statutory audited corporate accounts (Arsenal Holdings Limited), a comprehensive transfer market census (128 transactions), and official match records combined with advanced analytics (Understat), the study evaluates six pre-specified sub-research questions (SQ1–SQ6) using non-causal bivariate correlation methods and systematic Leave-One-Season-Out (LOO) robustness protocols. 
 
 The empirical findings reveal that Arsenal underwent an expansive but highly fluctuating financial evolution: football turnover expanded by +97.09% (from £350.60m to £691.00m), total group employee compensation (`staff_costs`) increased by +77.58% (from £195.40m to £347.00m), and net debt escalated from £6.50m to £283.00m (+£276.50m) as the club transitioned from bond-constrained self-sustainability to capital-intensive shareholder-backed restructuring. Contemporaneously ($N=10$), permanent gross transfer expenditure was positively associated with turnover ($r = +0.3659$) and net debt ($r = +0.5906$). In lagged specifications ($t \to t+1$, $N=9$), transfer investment exhibited positive associations with subsequent pitch performance that were markedly stronger for underlying process metrics—expected goal differential (xGD, $r = +0.5982$) and expected points (xPTS, $r = +0.6189$)—than for realized points per game (PPG, $r = +0.3911$). 
 
@@ -52,7 +52,7 @@ In accordance with locked protocol rules, no additional sub-research questions (
 ## 2. Institutional Context, Data Architecture & Provenance
 
 ### Master Panel Architecture
-To eliminate data contamination and reproducibility drift, the study constructed an immutable master panel dataset (`arsenal_master_panel.csv`) comprising exactly 10 annual rows (seasons 2015/16 through 2024/25) and 108 standardized variables. The ongoing 2025/26 season was strictly excluded to prevent partial-year survivorship distortions. The dataset was locked with an immutable cryptographic SHA-256 hash: `9b3f66070c87bb81892461c77ca9a7e5c5493e318a6310ad5a6c721d49697cd3`.
+To ensure empirical consistency and prevent data drift, the study constructed a standardized longitudinal panel dataset (`arsenal_master_panel.csv`) comprising exactly 10 annual rows (seasons 2015/16 through 2024/25) and 108 standardized variables. The ongoing 2025/26 season was excluded to avoid partial-year distortions.
 
 The panel links three primary empirical domain modules:
 
@@ -425,7 +425,7 @@ To maintain the highest standards of academic integrity, the conclusions of this
 
 ## 6. Conclusion
 
-This study executed a comprehensive, forensic investigation of the longitudinal relationships linking financial resources, capital investment decisions, and sporting performance at Arsenal Football Club from 2015/16 through 2024/25. Utilizing an immutable master panel dataset ($N=10$) integrated across audited statutory financial statements, a complete 128-transaction transfer census, and third-party advanced analytics, the empirical findings demonstrate that:
+This study conducted an independent longitudinal investigation of the relationships linking financial resources, capital investment decisions, and sporting performance at Arsenal Football Club from 2015/16 through 2024/25. Utilizing a 10-season panel dataset ($N=10$) integrated across audited statutory financial statements, a complete 128-transaction transfer census, and official match analytics, the empirical findings demonstrate that:
 
 1. **Transfer Investment Correlates with Tactical Stability:** Permanent gross transfer expenditures exhibited consistent, positive lagged associations with underlying tactical chance creation ($xGD$, $r = +0.5982$) and expected points ($xPTS$, $r = +0.6189$), maintaining complete sign invariance across all Leave-One-Season-Out iterations. However, associations with realized match outcome points ($PPG$, $r = +0.3911$) were substantially lower, reflecting the inherent stochastic variance of single-season football outcomes.
 2. **Absence of Wage Dominance in a Single Club:** Contrary to cross-sectional multi-club literature, statutory staff costs exhibited no stable predictive relationship with subsequent points ($r = +0.0516$, Spearman $\rho = -0.0333$), reversing sign under LOO analysis, which the author interprets as reflecting the broad composition of statutory payroll (which bundles non-playing organizational overhead) and multi-year contractual inertia during periods of squad decline.
@@ -438,11 +438,11 @@ Ultimately, financial resources function as necessary enabling inputs rather tha
 
 ## 7. Data Provenance & Verification Register
 
-1. **Master Panel Repository:** `arsenal_master_panel.csv` (10 rows $\times$ 108 columns; SHA-256: `9b3f66070c87bb81892461c77ca9a7e5c5493e318a6310ad5a6c721d49697cd3`).
+1. **Master Panel Dataset:** `arsenal_master_panel.csv` (10 rows $\times$ 108 standardized variables across 2015/16–2024/25).
 2. **Financial Sources:** Arsenal Holdings Limited Annual Report and Accounts (Companies House UK, 2016–2025).
 3. **Transfer Register:** Project Arsenal Transfer Census (128 transactions; `transfer_provenance.csv`).
 4. **Sporting Sources:** The Football Association Premier League Official Records & Understat Advanced Analytics (`sporting_provenance.csv`).
-5. **Quality Assurance:** Master QA Ledger (`MASTER_QA_RESULTS.csv`, 1,070 tests, 0 failures) and Provenance Fidelity Ledger (`MASTER_PROVENANCE_FIDELITY_RESULTS.csv`, 1,070 records, 0 defects).
+5. **Quality Assurance:** Verification tests confirming accounting balances match statutory filings and transaction totals.
 
 ---
 

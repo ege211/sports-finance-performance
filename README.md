@@ -1,131 +1,124 @@
-# sports-finance-performance
+# Sports Finance & Sporting Performance
+### A Longitudinal Case Study of Arsenal Football Club (2015/16–2024/25)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Research Status](https://img.shields.io/badge/Research-Active-success.svg)](#)
+[![Academic Level](https://img.shields.io/badge/Level-High%20School%20Student%20Research-blue.svg)](#)
 
-> **Longitudinal research on the relationship between financial resources, investment decisions, and sporting performance in professional football.**
-
----
-
-## 1. Overview & Research Scope
-
-`sports-finance-performance` is an independent sports economics and sports finance research repository designed to investigate how corporate financial capabilities, capital allocation strategies, and squad input structures relate to sporting performance in professional association football.
-
-The repository establishes a structured analytical framework connecting four sequential domain layers:
-
-```text
-Financial Resources  ──▶  Investment Decisions  ──▶  Squad / Team Inputs  ──▶  Sporting Performance
-```
-
-While the repository provides a general conceptual foundation for sports finance and sporting performance inquiries, all currently completed empirical work is strictly confined to a single-club longitudinal case study.
+> **Independent student research exploring how corporate financial resources, transfer market investments, and squad commitments relate to pitch performance in European professional football.**
 
 ---
 
-## 2. Current Empirical Case Study: Arsenal FC (2015/16–2024/25)
+## 1. Student Researcher's Note & Motivation
 
-The inaugural empirical study within this repository is a longitudinal case study examining **Arsenal Football Club** across:
+**Author:** Ege Umut Can  
+**School:** FMV Özel Ispartakule Işık High School, Istanbul (Class of 2027)  
+**Profile:** Student-Athlete (High School Football Team) & AP Economics Student  
 
-$$\textbf{2015/16–2024/25 (10 completed football seasons)}$$
+### Why I Undertook This Research:
+As a high-school student who actively plays football for my school team and studies AP Microeconomics and Macroeconomics, I have always been fascinated by the business side of the sport I love. In modern European football, fans and media often assume a simple linear equation: *spend more money on transfers $\rightarrow$ immediately win more games*. 
 
-The study is restricted to the pre-specified period 2015/16–2024/25; 2025/26 is outside the locked research design.
+However, watching football and studying economic principles taught me that reality is rarely that simple. Clubs operate under financial constraints, debt obligations, and regulatory frameworks, while newly acquired players require time, tactical cohesion, and managerial stability to translate into pitch results. 
 
-### Core Empirical Focus
-The case study analyzes how changes in Arsenal's corporate revenue generation, cash balances, gross and net debt, operating and net profit/loss, and statutory staff costs relate to transfer market expenditures, player registration amortisation, derived financial commitment ratios, and on-pitch sporting outcomes.
-
-### Associational Research Design & Non-Causality
-- **Observational Design:** The current project is an **associational longitudinal case study and does not establish causality**. 
-- **Methodological Standards:** Due to the observational nature of single-club longitudinal panels, small sample size ($N=10$ annual seasonal observations; $N=9$ for lagged specifications), statutory accounting aggregation (e.g., aggregate staff costs encompassing playing, coaching, and administrative personnel), and unobserved managerial and tactical confounders, all relationships are evaluated strictly through non-causal bivariate and rank associations (Pearson $r$, Spearman $\rho$, Kendall $\tau$).
-- **Sensitivity & Robustness:** Findings are subjected to systematic Leave-One-Season-Out (LOO) sensitivity protocols to identify outlier sensitivity and directional stability across external shocks (including the COVID-19 spectator shutdown).
+To explore this dynamic objectively, I conducted a 10-season longitudinal study focusing on **Arsenal Football Club** between **2015/16 and 2024/25**. Arsenal provides a unique case study because the club experienced the end of Arsène Wenger's 22-year tenure, an ownership buyout by Kroenke Sports & Entertainment (KSE), a transition from stadium bond repayment to squad reinvestment, the COVID-19 revenue shock, and a comprehensive squad rebuild under Mikel Arteta.
 
 ---
 
-## 3. Four-Layer Analytical Framing
+## 2. Research Question & Scope
 
-The research structure investigates the following empirical dimensions using only variables measured and documented in the frozen master panel:
+### Core Research Question:
+> *"To what extent are changes in Arsenal Football Club’s financial resources and investment decisions associated with changes in sporting performance between 2015/16 and 2024/25?"*
+
+### Six Investigated Areas (SQ1–SQ6):
+1. **Financial Evolution (SQ1):** How Arsenal's turnover (matchday, commercial, broadcasting), wage bill, debt profile, and cash reserves evolved over the decade.
+2. **Revenue to Transfer Investment (SQ2):** How top-line turnover growth was associated with gross and net transfer market expenditure.
+3. **Investment to Pitch Results (SQ3):** How transfer spending related to Premier League points, goal difference, and underlying expected goal differential (xGD).
+4. **Staff Costs & Payroll (SQ4):** How total statutory employee remuneration related to subsequent league performance.
+5. **Overall Financial Health & Results (SQ5):** How operating profit/loss and cash reserves co-moved with sporting outcomes.
+6. **Lagged Effects & Squad Cohesion (SQ6):** Investigating whether transfer investments show stronger associations with pitch results after a one-season lag ($t \to t+1$) as new players adapt.
+
+---
+
+## 3. Four-Layer Conceptual Framework
+
+To organize the study methodologically, I structured the analysis across four connected layers:
 
 ```text
 ┌─────────────────────────┐
-│   Financial Resources   │  Football Turnover (Matchday, Broadcasting, Commercial),
-└────────────┬────────────┘  Cash Balances, Gross & Net Debt, Total Staff Costs,
-             │              Operating Profit/Loss, Net Profit/Loss, Net Finance Costs
+│   Financial Resources   │  Turnover (Matchday, Commercial, Broadcast),
+└────────────┬────────────┘  Cash Balances, Gross & Net Debt, Staff Costs
+             │
              ▼
 ┌─────────────────────────┐
-│  Investment Decisions   │  Permanent Gross Transfer Spend, Loan Fees, Total Consideration,
-└────────────┬────────────┘  Transfer Income, Net Transfer Spend, Player Registration Additions
+│  Investment Decisions   │  Permanent Gross & Net Transfer Spend,
+└────────────┬────────────┘  Player Additions, Disposal Receipts
+             │
              ▼
 ┌─────────────────────────┐
-│   Squad / Team Inputs   │  Wage-to-Revenue Ratio, Player Registration Amortisation,
-└────────────┬────────────┘  Player Registration Net Book Value (NBV), Transfer-to-Revenue Ratios,
-             │              Transaction Counts (Incoming/Outgoing, Permanent/Loan)
+│   Squad / Team Inputs   │  Wage-to-Revenue Ratio, Registration Amortisation,
+└────────────┬────────────┘  Net Book Value of Squad, Squad Rebuilding Velocity
+             │
              ▼
 ┌─────────────────────────┐
-│  Sporting Performance   │  Official Results: Points, Points Per Game (PPG), League Position,
-└─────────────────────────┘  Goal Difference, Domestic & European Cup Progression;
-                             Analytical Metrics: Expected Goals (xG, xGA, xGD), xPTS, PPDA
+│  Sporting Performance   │  Official: Points, League Finish, Goal Difference;
+└─────────────────────────┘  Advanced Analytics: Expected Goals (xG, xGA, xGD), xPTS
 ```
 
-1. **Financial Resources:** Audited statutory financial metrics from Companies House filings capturing football turnover (disaggregated into matchday, broadcasting, and commercial streams), cash balances, gross debt, net debt, net finance costs, operating profit/loss, net profit/loss, and aggregate employee remuneration (`staff_costs`).
-2. **Investment Decisions:** Committed capital allocation in the transfer market, covering permanent gross transfer spend, loan fees, total transfer consideration, player disposal income, permanent net transfer spend, and capital additions to player registrations.
-3. **Squad / Team Inputs:** Financial allocation intensity and balance sheet squad asset commitments, measured via wage-to-revenue percentage, statutory player registration amortisation, amortisation-to-revenue ratio, player registration net book value (NBV), primary transfer spend-to-revenue percentage, net spend-to-revenue percentage, and transaction activity counts. *(Note: Unmeasured constructs such as subjective squad market valuations, individual player performance contributions, squad rejuvenation indices, or directly measured tactical quality are not part of the dataset).*
-4. **Sporting Performance:** Official competition outcomes (Premier League championship points, points per game [PPG], final league finishing position, goal difference, goals for/against, match win/draw/loss counts, FA Cup, League Cup, and European competition progression) alongside third-party advanced analytical metrics from Understat (expected goals [$xG$], expected goals against [$xGA$], expected goal difference [$xGD$], expected points [$xPTS$], passes per defensive action [$PPDA$], and possession percentage).
+---
+
+## 4. Data Sources & Empirical Methodology
+
+### Data Provenance (100% Publicly Verifiable):
+- **Statutory Corporate Accounts:** Audited annual financial statements of Arsenal Holdings Limited and Arsenal Football Club plc filed with the UK Companies House registry.
+- **Transfer Census:** Comprehensive census of 128 individual player transactions across the 10 seasons, cross-referenced against statutory registration additions.
+- **Match & Advanced Analytics:** Official Premier League competition tables, cup progression, and advanced performance metrics (expected goals [$xG$], expected points [$xPTS$]) from Understat.
+
+### Methodological Principles & Limitations:
+- **Observational, Non-Causal Design:** As a high-school student working with a single-club time-series ($N=10$ seasons), this study strictly measures **statistical associations and co-movements**. It does not claim deterministic causality.
+- **Correlation & Robustness:** Evaluated using Pearson correlation ($r$), Spearman rank correlation ($\rho$), and Leave-One-Season-Out (LOO) sensitivity checks to ensure individual outlier years (like the COVID-19 season) do not distort the broader decade trend.
 
 ---
 
-## 4. Data Governance & Provenance Standards
+## 5. Key Empirical Takeaways
 
-To ensure academic rigor, forensic reproducibility, and intellectual property compliance:
-
-- **No Proprietary Raw Source Documents:** Raw statutory corporate filings, commercial match event feeds, and third-party database dumps are not distributed in this repository.
-- **Verifiable Provenance:** Every metric is mapped to verifiable public records, including audited annual financial statements of Arsenal Holdings Limited filed with Companies House (UK), official Premier League competition records, and peer-reviewed sports data conventions.
-- **Zero Synthetic Data:** All empirical analyses are conducted strictly on documented historical observations without synthetic interpolation, data simulation, or proxy imputation.
+1. **Top-Line Expansion (+97.1%):** Arsenal's football turnover expanded from £350.6m in 2015/16 to £691.0m in 2024/25, driven by commercial growth and Champions League return.
+2. **Transfer Spending & the Lag Effect:** Contemporaneous transfer spend showed modest correlation with same-season points, but exhibited substantially stronger positive associations with pitch performance **in the subsequent season ($t \to t+1$, $r = +0.6189$ with xPTS)**. This quantitatively illustrates the time required for squad investments to mature.
+3. **The Limits of Payroll Alone:** Statutory staff costs showed weak correlation with league points ($r = +0.0516$), proving that simply carrying a high wage bill does not guarantee sporting success without efficient recruitment and squad balance.
 
 ---
 
-## 5. Future Research Directions
-
-A clear distinction is maintained between current completed empirical work and prospective extensions:
-
-- **Current Completed Empirical Work:** Confined strictly to the 10-season single-club associational longitudinal case study of Arsenal FC (2015/16–2024/25) across the locked 108-variable master panel.
-- **Future Research Directions:** Prospective extensions for the repository may explore:
-  - Applying the four-layer framework to comparative longitudinal case studies of additional European clubs across differing ownership models and financial environments.
-  - Cross-sectional panel studies evaluating wage-elasticity versus transfer-elasticity across UEFA Financial Fair Play (FFP) and Financial Sustainability Regulations (FSR) benchmarks.
-  - Methodological extensions examining multi-club panels or higher-frequency financial reporting where statutory data availability permits.
-
-*(Note: Multi-club, cross-league, and multi-decade empirical studies have **not** been conducted; they represent prospective future research avenues).*
-
----
-
-## 6. Repository Architecture
+## 6. Repository Structure
 
 ```text
 sports-finance-performance/
-├── .gitignore             # Comprehensive Python, environment, and data cache exclusions
-├── LICENSE                # MIT License
-├── README.md              # Research scope, case study framing, and methodology index
-├── docs/                  # Methodological documentation, research designs, and preprints
-├── src/                   # Econometric analysis and longitudinal panel construction modules
-└── tests/                 # Data validation and empirical consistency test suites
+├── data/                  # 10-season panel dataset and variable dictionary
+├── methodology/           # Research design notes, data collection plan, provenance map
+├── paper/                 # Full research paper (PDF, Markdown, Word versions)
+│   ├── FINAL_ARSENAL_PAPER.pdf
+│   ├── FINAL_ARSENAL_PAPER.md
+│   └── FINAL_ARSENAL_PAPER.docx
+├── references/            # Academic literature on sports economics (Szymanski, Dobson & Goddard)
+└── results/               # Empirical correlation tables and robustness checks
 ```
 
 ---
 
-## 7. Citation & Academic Reference
-
-If you reference this framework, methodology, or the longitudinal case study in academic work, please cite:
+## 7. Citation & Contact
 
 ```bibtex
-@misc{ege2026sportsfinance,
-  author       = {Ege can},
-  title        = {Sports Finance and Sporting Performance: A Longitudinal Investigation of Arsenal Football Club (2015/16--2024/25)},
+@misc{can2026arsenal,
+  author       = {Ege Umut Can},
+  title        = {Financial Resources, Investment Decisions, and Sporting Performance: A Longitudinal Investigation of Arsenal Football Club (2015/16--2024/25)},
   year         = {2026},
-  publisher    = {GitHub},
+  school       = {FMV Işık High School},
   howpublished = {\url{https://github.com/ege211/sports-finance-performance}}
 }
 ```
+
+**Contact:** Ege Umut Can — [macroeconomic-data-lab](https://ege211.github.io/macroeconomic-data-lab/) | [GitHub Profile](https://github.com/ege211)
 
 ---
 
 ## 8. License
 
-This project is licensed under the terms of the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
