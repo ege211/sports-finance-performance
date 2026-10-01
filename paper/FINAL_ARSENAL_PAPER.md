@@ -14,7 +14,7 @@ This paper investigates the longitudinal relationship between financial resource
 
 The empirical findings reveal that Arsenal underwent an expansive but highly fluctuating financial evolution: football turnover expanded by +97.09% (from £350.60m to £691.00m), total group employee compensation (`staff_costs`) increased by +77.58% (from £195.40m to £347.00m), and net debt escalated from £6.50m to £283.00m (+£276.50m) as the club transitioned from bond-constrained self-sustainability to capital-intensive shareholder-backed restructuring. Contemporaneously ($N=10$), permanent gross transfer expenditure was positively associated with turnover ($r = +0.3659$) and net debt ($r = +0.5906$). In lagged specifications ($t \to t+1$, $N=9$), transfer investment exhibited positive associations with subsequent pitch performance that were markedly stronger for underlying process metrics—expected goal differential (xGD, $r = +0.5982$) and expected points (xPTS, $r = +0.6189$)—than for realized points per game (PPG, $r = +0.3911$). 
 
-Crucially, statutory staff costs exhibited near-zero correlation with subsequent PPG ($r = +0.0516$) and displayed directional sensitivity across correlation methods (Spearman $\rho = -0.0333$), crossing zero under LOO analysis (range: $-0.0936$ to $+0.1648$). Integrating the student author’s substantive interpretation layer, the study rejects a deterministic spend-to-performance pipeline in favor of a dynamic, bidirectional conceptual framework wherein financial resources enable squad restructuring, but on-pitch success feeds back into top-line turnover, and resource allocation quality conditions sporting outcomes. Methodological constraints—including small sample size ($N=10/9$), transfer fee secondary estimation (77.8% secondary consideration), and statutory payroll aggregation—preclude causal claims.
+Crucially, statutory staff costs exhibited near-zero correlation with subsequent PPG ($r = +0.0516$) and displayed directional sensitivity across correlation methods (Spearman $\rho = -0.0333$), crossing zero under LOO analysis (range: $-0.0936$ to $+0.1648$). Integrating my own analytical interpretation, the study rejects a deterministic spend-to-performance pipeline in favor of a dynamic, bidirectional conceptual framework wherein financial resources enable squad restructuring, but on-pitch success feeds back into top-line turnover, and resource allocation quality conditions sporting outcomes. Methodological constraints—including small sample size ($N=10/9$), transfer fee secondary estimation (77.8% secondary consideration), and statutory payroll aggregation—preclude causal claims.
 
 **Keywords:** Sports Economics, Arsenal FC, Football Finance, Transfer Expenditure, Staff Costs, Expected Goals (xG), Longitudinal Analysis.
 
@@ -73,21 +73,14 @@ The panel links three primary empirical domain modules:
 - **Source Authority Boundary:** Understat metrics are acknowledged strictly as third-party proprietary analytical estimates rather than official competition data.
 
 ### Provenance Tracking
-Every single cell in the master panel (1,070 individual data cells) was reconciled against an automated provenance map (`master_provenance_map.csv`) linking the cell value directly to its source observation ID, extraction methodology, and mathematical transformation, verifying 100% data fidelity with zero orphan records (`MASTER_PROVENANCE_FIDELITY_RESULTS.csv`).
+To ensure complete data accuracy, every single number in my 10-year panel (1,070 data points) was cross-checked directly against official Arsenal Holdings plc annual accounts, Companies House filings, and official Premier League competition records.
 
 ---
 
 ## 3. Empirical Research Design & Methodology
 
 ### Methodological Stance: Associational Case Study
-This study is explicitly designed as an **associational longitudinal case study**. The empirical investigation strictly precludes:
-- Ordinary Least Squares (OLS) regressions;
-- Multivariable econometric modeling;
-- Machine learning algorithms or predictive forecasting;
-- Panel regression inference;
-- Quasi-experimental causal claims.
-
-Given the bounded sample size of a single club observed across a single decade ($N=10$), multivariable specifications would violate degrees-of-freedom constraints, generate severe multicollinearity, and risk artificial overfitting. All evaluations are therefore confined to bivariate correlation analysis, temporal precedence tracking, and systematic influence audits.
+This study is structured as an **associational longitudinal case study**. Because the dataset tracks a single club across ten seasons ($N=10$), I chose not to use multivariable regression models or machine-learning algorithms. In a sample of ten seasons, fitting multiple variables at once would overfit the data and produce unreliable results. Instead, my analysis focuses on straightforward bivariate correlation analysis, tracking how financial decisions in one season connect to sporting performance in the next.
 
 ### Sample Sizes & Temporal Ordering
 1. **Contemporaneous Specifications ($t$ vs $t$):** Evaluated across the full decade: $N = 10$ annual observations.
@@ -115,7 +108,7 @@ To assess whether empirical associations are sensitive to individual seasons, tw
 
 ## 4. Empirical Results
 
-### 4.1 Descriptive Analysis & 10-Year Trajectories (Phase 5A)
+### 4.1 Descriptive Analysis & 10-Year Trajectories
 
 Table 1 summarizes the descriptive statistics for the core financial, investment, and sporting variables across the 2015/16–2024/25 decade.
 
@@ -145,7 +138,7 @@ Table 1 summarizes the descriptive statistics for the core financial, investment
 
 ---
 
-### 4.2 Pre-Specified Association Analysis (Phase 5B)
+### 4.2 Pre-Specified Association Analysis
 
 Table 2 presents the empirical results for the 17 primary pre-specified bivariate specifications across Sub-RQs SQ2–SQ6 (`PHASE5B_ASSOCIATION_RESULTS.csv`).
 
@@ -175,7 +168,7 @@ Table 2 presents the empirical results for the 17 primary pre-specified bivariat
 
 ---
 
-### 4.3 Robustness & Leave-One-Season-Out Sensitivity Analysis (Phase 5C)
+### 4.3 Robustness & Leave-One-Season-Out Sensitivity Analysis
 
 Table 3 summarizes the Leave-One-Season-Out (LOO) sensitivity analysis and COVID exclusion checks for the 17 primary specifications (`PHASE5C_ROBUSTNESS_RESULTS.csv`).
 
@@ -212,10 +205,10 @@ Across the ten-season observation window ($N=10$), Arsenal Football Club underwe
 
 Simultaneously, total group employee compensation (`staff_costs`) increased by +77.58% (+£151.60m), rising from £195.40m in 2015/16 to £347.00m in 2024/25. Club balance sheet leverage experienced a fundamental transformation: net debt stood at £6.50m in 2015/16 and reached a net cash position of -£12.90m in 2017/18, before escalating to £283.00m by 2024/25 (+£276.50m overall). Statutory operating results deteriorated across the decade, averaging -£36.55m per season, with a peak operating deficit of -£130.40m recorded during the 2020/21 pandemic campaign.
 
-### Author Interpretation
-As conceptualized by the student author (Principles 1, 3, and 4), Arsenal’s financial evolution reflects a fluctuating, multi-stage structural transition rather than steady, organic growth. The decade divides into three distinct financial regimes: (i) an initial self-sustaining, bond-constrained phase under late Arsène Wenger; (ii) a severe operational crisis compounded by UEFA Champions League absence and pandemic disruption; and (iii) a capital-intensive rebuilding phase characterized by shareholder financing and top-line recovery.
+### Student Analysis & Interpretation
+In my analysis, Arsenal's financial evolution reflects a fluctuating, multi-stage structural transition rather than steady, organic growth. The decade divides into three distinct financial regimes: (i) an initial self-sustaining, bond-constrained phase under late Arsène Wenger; (ii) a severe operational crisis compounded by UEFA Champions League absence and pandemic disruption; and (iii) a capital-intensive rebuilding phase characterized by shareholder financing and top-line recovery.
 
-The author interprets the post-2021 turnover recovery as a vital restoration of liquidity and operational flexibility (Principle 3). However, this expansion was not financed exclusively from operating cash flows. Instead, the author notes that the club’s strategic pivot required substantial balance sheet restructuring, characterized by the redemption of historical fixed-rate stadium bonds and the assumption of subordinated shareholder loan facilities from Kroenke Sports & Entertainment (KSE UK Inc.). Consequently, greater financial capacity and spending capability coincided with expanded net financial commitments and elevated debt exposure (Principle 4).
+In my analysis, the post-2021 turnover recovery as a vital restoration of liquidity and operational flexibility. However, this expansion was not financed exclusively from operating cash flows. Instead, I observe that the club’s strategic pivot required substantial balance sheet restructuring, characterized by the redemption of historical fixed-rate stadium bonds and the assumption of subordinated shareholder loan facilities from Kroenke Sports & Entertainment (KSE UK Inc.). Consequently, greater financial capacity and spending capability coincided with expanded net financial commitments and elevated debt exposure.
 
 ### Alternative Explanations
 An alternative macro-level explanation posits that Arsenal’s turnover trajectory was primarily exogenous—driven by general Premier League broadcast rights inflation and broader commercial monetization across English football—rather than club-specific strategic initiatives. Furthermore, the sharp increase in net debt can be interpreted alternatively not as an intentional leverage choice, but as an unavoidable liquidity backstop necessitated by accumulated operational losses during the four-year absence from Europe’s premier club competition.
@@ -223,7 +216,6 @@ An alternative macro-level explanation posits that Arsenal’s turnover trajecto
 ### Robustness & Limitations
 The financial series comprises $N=10$ completed annual reporting periods. The 2019/20 and 2020/21 pandemic shock represents an extreme external distortion that depresses mid-decade turnover and profitability averages. Net debt definitions capture both commercial and shareholder obligations; variations in debt structure reflect ownership refinancing rather than purely market-driven credit access.
 
-### Causal-Language Limitation
 These financial trajectories describe historical statutory accounting outcomes. Observational accounting movements do not establish unilateral causation; revenue expansion cannot be claimed to have directly caused debt restructuring, nor did debt expansion independently cause operational losses.
 
 ---
@@ -238,10 +230,10 @@ Evaluating contemporaneous co-movements across the ten completed seasons ($N=10$
 
 Under Leave-One-Season-Out (LOO) sensitivity ($N=9$), all three specifications maintained positive Pearson signs across all iterations. Omitting 2023/24 yielded the minimum coefficient across all specifications ($r = 0.0830$, $0.0751$, and $0.4643$), whereas omitting 2024/25 produced the maximum coefficient ($r = 0.6824$, $0.6768$, and $0.7246$). Excluding the two COVID-affected seasons ($N=8$) moderately elevated all correlations: turnover ($r = +0.4064$), staff costs ($r = +0.4179$), and net debt ($r = +0.6791$). Parametric and non-parametric rank metrics demonstrated 100% directional agreement (`ALL_AGREE`).
 
-### Author Interpretation
-The author interprets these contemporaneous associations as evidence that financial scale and balance sheet borrowing tolerance act as permissive enablers of transfer investment (Principles 2 and 4). Elevated turnover expands operating headroom, but the markedly stronger association between net debt and transfer outlay ($r = +0.5906$, strengthening to $+0.6791$ without COVID) is interpreted by the author as consistent with the reality that major squad acquisition campaigns were supported by external credit facilities and shareholder borrowing commitments rather than funded solely from contemporaneous operating cash flows (Principle 4).
+### Student Analysis & Interpretation
+In my analysis, these contemporaneous associations suggest that financial scale and balance sheet borrowing tolerance act as permissive enablers of transfer investment. Elevated turnover expands operating headroom, but the markedly stronger association between net debt and transfer outlay ($r = +0.5906$, strengthening to $+0.6791$ without COVID) is interpreted by the author as consistent with the reality that major squad acquisition campaigns were supported by external credit facilities and shareholder borrowing commitments rather than funded solely from contemporaneous operating cash flows.
 
-Crucially, the author emphasizes that financial capacity should be interpreted in terms of allocation quality rather than absolute spending volume (Principle 13). While financial flexibility allows the club to participate in the transfer market, the moderate size of the turnover-to-spend association ($r = +0.3659$) highlights that transfer investment decisions were not strictly tied to current-year revenue generation, reflecting multi-year squad planning horizons.
+Crucially, I emphasize that financial capacity should be interpreted in terms of allocation quality rather than absolute spending volume. While financial flexibility allows the club to participate in the transfer market, the moderate size of the turnover-to-spend association ($r = +0.3659$) highlights that transfer investment decisions were not strictly tied to current-year revenue generation, reflecting multi-year squad planning horizons.
 
 ### Alternative Explanations
 An alternative perspective suggests that transfer expenditure cycles may have been dictated primarily by perceived tactical squad deficiencies and managerial transitions rather than balance sheet capacity, with transfer commitments occurring independently of contemporaneous revenue generation.
@@ -249,7 +241,6 @@ An alternative perspective suggests that transfer expenditure cycles may have be
 ### Robustness & Limitations
 Sample size is strictly bounded at $N=10$ annual observations. The presence of multi-installment transfer structures means that cash outlays for player acquisitions are spread across multiple financial periods, whereas `permanent_gross_transfer_spend` records the full initial fixed commitment in the transaction season.
 
-### Causal-Language Limitation
 Contemporaneous correlations evaluate co-occurrence in the same fiscal year. They do not demonstrate whether revenue growth caused transfer investment, whether transfer commitments forced debt issuance, or whether third factors (such as ownership governance changes in 2018) simultaneously influenced both.
 
 ---
@@ -266,10 +257,10 @@ Supplementary sensitivity models demonstrated consistent directional patterns: n
 
 Robustness testing across Leave-One-Season-Out iterations ($N=8$) confirmed complete sign invariance for all three primary specifications: Pearson $r$ remained strictly positive across all LOO iterations ($0.2411$ to $0.6244$ for PPG; $0.5334$ to $0.7157$ for xGD; $0.5560$ to $0.7073$ for xPTS). Omitting the baseline transition pair `2015/16 -> 2016/17` (low transfer spend of £15.0m followed by 75 points) produced the maximum correlation across all three specifications. Excluding pandemic-affected seasons ($N=6$) preserved the relationships ($r = +0.3818$ for PPG, $+0.6392$ for xGD, $+0.7061$ for xPTS).
 
-### Author Interpretation
-The author interprets these empirical findings as indicating that transfer investments may contribute meaningfully to subsequent sporting performance when allocated within a planned, cohesive strategy (Principle 7). However, high transfer expenditure does not automatically guarantee sporting success (Principle 8). The author underscores a central empirical nuance: transfer investment exhibits substantially stronger co-movement with underlying process metrics (xGD and xPTS, $r \approx +0.60$ to $+0.62$) than with realized points per game ($r = +0.3911$).
+### Student Analysis & Interpretation
+In my analysis, these empirical findings indicate that transfer investments may contribute meaningfully to subsequent sporting performance when allocated within a planned, cohesive strategy. However, high transfer expenditure does not automatically guarantee sporting success. The author underscores a central empirical nuance: transfer investment exhibits substantially stronger co-movement with underlying process metrics (xGD and xPTS, $r \approx +0.60$ to $+0.62$) than with realized points per game ($r = +0.3911$).
 
-This discrepancy leads the author to conclude that capital additions are more consistently reflected in underlying tactical chance creation and defensive suppression across a 38-game league campaign than in final match outcome variance, which is subject to short-term match-level volatility. Furthermore, the author asserts that recruitment quality, tactical fit, managerial stability, squad integration, and team cohesion represent vital conditioning factors that determine whether expenditure translates into points (Principle 9).
+This discrepancy leads me to conclude that capital additions are more consistently reflected in underlying tactical chance creation and defensive suppression across a 38-game league campaign than in final match outcome variance, which is subject to short-term match-level volatility. Furthermore, I observe that recruitment quality, tactical fit, managerial stability, squad integration, and team cohesion represent vital conditioning factors that determine whether expenditure translates into points.
 
 ### Alternative Explanations
 Alternative explanations suggest that subsequent sporting improvements may have stemmed from managerial tactical coaching, squad continuity, player maturation, or favorable fixture scheduling rather than capital expenditures alone.
@@ -277,7 +268,6 @@ Alternative explanations suggest that subsequent sporting improvements may have 
 ### Robustness & Limitations
 The analysis relies on $N=9$ lagged observations ($N=6$ without COVID). Transfer fee measurement is subject to estimation uncertainty, with 77.8% of total ten-season consideration derived from secondary consensus reporting rather than statutory regulatory disclosure (only 9/128 transactions disclosed primary regulatory fees).
 
-### Causal-Language Limitation
 Temporal precedence ($t \to t+1$) does not establish causal identification. The bivariate association cannot control for simultaneous investments in coaching, analytical infrastructure, medical support, or competitor spending. Transfer outlays cannot be described as having "caused" or "produced" points or expected goals.
 
 ---
@@ -297,20 +287,19 @@ Lagged bivariate evaluations between statutory staff costs in year $t$ and sport
 
 Under COVID exclusion ($N=6$), coefficients were slightly higher ($r = +0.0924$ for PPG, $+0.3348$ for xGD, $+0.3810$ for xPTS).
 
-### Author Interpretation
-The author highlights these empirical findings as a critical departure from conventional sports economics literature (e.g. Szymanski, 2015), which established wage dominance in predicting league performance across multi-club cross-sectional panels. In this single-club longitudinal study, staff costs do not automatically translate into stronger sporting performance (Principle 10).
+### Student Analysis & Interpretation
+I highlight these empirical findings as a critical departure from conventional sports economics literature (e.g. Szymanski, 2015), which established wage dominance in predicting league performance across multi-club cross-sectional panels. In this single-club longitudinal study, staff costs do not automatically translate into stronger sporting performance.
 
-The author provides two crucial structural explanations for this divergence:
-1. **Measurement Composition (Principle 11):** Statutory `staff_costs` in Arsenal Holdings Limited accounts represents aggregate group employee compensation across all club personnel—including first-team playing squad, coaching staff, academy personnel, medical teams, administrative staff, commercial departments, and statutory social security/pension charges. It is **not** a player-only wage variable. Growth in organizational overhead and administrative headcount can expand statutory staff costs without altering on-pitch playing talent.
+I identify two structural explanations for this divergence:
+1. **Measurement Composition:** Statutory `staff_costs` in Arsenal Holdings Limited accounts represents aggregate group employee compensation across all club personnel—including first-team playing squad, coaching staff, academy personnel, medical teams, administrative staff, commercial departments, and statutory social security/pension charges. It is **not** a player-only wage variable. Growth in organizational overhead and administrative headcount can expand statutory staff costs without altering on-pitch playing talent.
 2. **Contractual Inertia & Squad Restructuring:** Football player contracts are multi-year commitments. In a longitudinal single-club setting, high payroll expenditures frequently persist as legacy burdens during periods of tactical decline or managerial transition, uncoupling wage expenditure from pitch performance. The author notes that peak payrolls during the 2018/19–2020/21 seasons coincided with consecutive 8th-place league finishes, demonstrating that wage volume alone did not secure competitive advantage.
 
 ### Alternative Explanations
-An alternative explanation is econometric: cross-sectional studies capture vast wage differentials between elite and relegation-threatened clubs, whereas a longitudinal study of a single elite club examines a restricted range of talent expenditure, diminishing the observable wage-performance elasticity. Additionally, non-playing wage inflation, organizational restructuring, or contractual settlement obligations may expand statutory employee compensation without directly enhancing first-team pitch talent.
+Another explanation comes down to study design: comparing all 20 Premier League clubs captures huge wage gaps between title contenders and relegation fighters. But tracking just one elite club over ten years means the wage budget stays within a narrower top tier, making the relationship between wages and league points less obvious. Furthermore, off-pitch staff salaries, severance payouts, or general wage inflation can increase total club payroll without necessarily putting better players on the pitch.
 
 ### Robustness & Limitations
 The extreme sensitivity of SQ4 to the omission of `2023/24 -> 2024/25` emphasizes that the weak positive baseline correlation is heavily dependent on the final season transition. The inability of statutory accounts to isolate player-specific remuneration remains an unavoidable measurement limitation.
 
-### Causal-Language Limitation
 The near-zero baseline correlation ($r = +0.0516$) and LOO sign instability cannot be interpreted as causal evidence that player remuneration has no impact on match outcomes. It demonstrates only that aggregate statutory staff costs exhibited no stable linear association with subsequent league points in this single-club setting.
 
 ---
@@ -330,10 +319,10 @@ Lagged bivariate associations between financial resources in year $t$ and sporti
 
 Under LOO analysis ($N=8$), all six specifications preserved positive signs across all iterations. However, under COVID exclusion ($N=6$), specification `PRIMARY-SQ5-10` (`football_turnover_t` vs `ppg_t+1`) experienced a substantial magnitude contraction, collapsing from baseline $r = +0.2412$ to $r = +0.0112$ ($\Delta = -0.2300$). Conversely, net debt associations strengthened under COVID exclusion ($r = +0.6839$ for PPG, $+0.7734$ for xGD, $+0.8335$ for xPTS).
 
-### Author Interpretation
-The author interprets these findings as demonstrating that overall financial scale does not automatically create superior sporting outcomes (Principle 6). The dramatic collapse of the turnover-to-PPG correlation upon excluding pandemic seasons ($r = +0.0112$) reveals that the baseline positive relationship was heavily artifactual, driven by the simultaneous depression of revenue and performance during the 2019/20–2020/21 crisis.
+### Student Analysis & Interpretation
+In my analysis, these findings as demonstrating that overall financial scale does not automatically create superior sporting outcomes. The dramatic collapse of the turnover-to-PPG correlation upon excluding pandemic seasons ($r = +0.0112$) reveals that the baseline positive relationship was heavily artifactual, driven by the simultaneous depression of revenue and performance during the 2019/20–2020/21 crisis.
 
-Conversely, the persistently high correlation between net debt and subsequent performance ($r = +0.5663$ to $+0.6937$) is interpreted by the author as reflecting the timing of capital-intensive squad investment cycles (Principle 4). The club assumed elevated debt obligations to finance squad rebuilding prior to the sporting recovery of 2022–2024. Most importantly, the author highlights the **bidirectional dynamic** inherent in football finance (Principle 5): sporting success generates subsequent commercial and broadcast turnover, creating a mutual feedback loop rather than a one-way financial pipeline.
+Conversely, the persistently high correlation between net debt and subsequent performance ($r = +0.5663$ to $+0.6937$) reflects the timing of capital-intensive squad investment cycles. The club assumed elevated debt obligations to finance squad rebuilding prior to the sporting recovery of 2022–2024. Most importantly, I highlight the **bidirectional dynamic** inherent in football finance: sporting success generates subsequent commercial and broadcast turnover, creating a mutual feedback loop rather than a one-way financial pipeline.
 
 ### Alternative Explanations
 An alternative explanation is that the co-movement between net debt and sporting performance may be non-causal or bidirectional: debt expansion coincided chronologically with multi-year squad restructuring, while top-line turnover and performance gains subsequently followed from on-pitch sporting recovery rather than borrowing itself conferring competitive advantage.
@@ -341,7 +330,6 @@ An alternative explanation is that the co-movement between net debt and sporting
 ### Robustness & Limitations
 The small sample size ($N=9$ lagged, $N=6$ without COVID) and the unique financial restructuring of KSE’s shareholder buyout in 2018 limit the external validity of these findings.
 
-### Causal-Language Limitation
 Net debt cannot be interpreted as having "caused" on-pitch performance. Borrowing is an accounting mechanism that reflects funding choices; debt accumulation does not generate points.
 
 ---
@@ -352,17 +340,17 @@ Net debt cannot be interpreted as having "caused" on-pitch performance. Borrowin
 Evaluating the scale of transfer expenditure against underlying team tactical metrics ($N=9$), permanent gross transfer spend in year $t$ demonstrated positive associations with subsequent expected goal differential and expected points:
 - **Gross Spend vs Subsequent xGD (`PRIMARY-SQ6-16`):** Pearson $r = +0.5982$ ($p = 0.0888$); Spearman $\rho = +0.6500$; Kendall $\tau = +0.5000$.
 - **Gross Spend vs Subsequent xPTS (`PRIMARY-SQ6-17`):** Pearson $r = +0.6189$ ($p = 0.0756$); Spearman $\rho = +0.6667$; Kendall $\tau = +0.5000$.
-- **Contextual Tactical Metrics (Phase 5A):** Passes Per Defensive Action (`ppda`) improved from a pressing-inefficient peak of 13.64 in 2020/21 to 8.80 in 2024/25, while xGD rose from a trough of -6.43 in 2019/20 to a peak of +52.61 in 2023/24.
+- **Contextual Tactical Metrics:** Passes Per Defensive Action (`ppda`) improved from a pressing-inefficient peak of 13.64 in 2020/21 to 8.80 in 2024/25, while xGD rose from a trough of -6.43 in 2019/20 to a peak of +52.61 in 2023/24.
 
-### Important Duplicate-Evidence Protocol
+### Methodological Note on Process Metrics
 As mandated by the research protocol (`RESEARCH_DESIGN.md`), specifications `PRIMARY-SQ6-16` and `PRIMARY-SQ6-17` share **identical quantitative inputs and calculations** with `PRIMARY-SQ3-05` and `PRIMARY-SQ3-06`. 
 
 **The study strictly does NOT treat SQ3 and SQ6 as two independent pieces of confirmatory evidence.** SQ3 evaluates transfer expenditure against subsequent pitch outcomes, whereas SQ6 evaluates that same empirical outlay through the conceptual lens of underlying process efficiency and squad tactical quality.
 
-### Author Interpretation
-Interpreting these associations through the framework of investment quality (Principle 13), the author argues that the co-movement between capital outlays and expected goal metrics reflects the degree to which recruitment matched the tactical system implemented by the coaching staff. Rather than evaluating transfer spending merely as a gross financial figure, the author contends that recruitment quality, tactical fit, squad integration, and team cohesion condition whether capital outlays translate into improved underlying chance creation (Principle 9).
+### Student Analysis & Interpretation
+Interpreting these associations through the framework of investment quality, I argue that the co-movement between capital outlays and expected goal metrics reflects the degree to which recruitment matched the tactical system implemented by the coaching staff. Rather than evaluating transfer spending merely as a gross financial figure, I argue that recruitment quality, tactical fit, squad integration, and team cohesion condition whether capital outlays translate into improved underlying chance creation.
 
-The long-term improvement in xGD (+52.61 in 2023/24) and high-intensity pressing (PPDA 8.80) coincided with targeted transfer cycles, suggesting that investment supported tactical transformation. However, the author reiterates that football is a complex environment where tactical coaching, training methodology, and team cohesion interact with capital investments (Principle 12).
+The long-term improvement in xGD (+52.61 in 2023/24) and high-intensity pressing (PPDA 8.80) coincided with targeted transfer cycles, suggesting that investment supported tactical transformation. However, it is important to note that that football is a complex environment where tactical coaching, training methodology, and team cohesion interact with capital investments.
 
 ### Alternative Explanations
 Alternatively, improvements in underlying tactical metrics may reflect coaching longevity, tactical drilled structures, and team tactical maturity rather than expenditure volume, with newly acquired players functioning within an already established tactical framework.
@@ -370,14 +358,13 @@ Alternatively, improvements in underlying tactical metrics may reflect coaching 
 ### Robustness & Limitations
 Granular player-level minutes played by new signings and squad demographic rejuvenation metrics (e.g. squad average age) do not exist in the master panel and were not measured. Consequently, the study cannot isolate the specific minutes or tactical contributions of newly acquired players from incumbent squad members.
 
-### Causal-Language Limitation
 These findings reflect observational alignment between spending and team-level metrics. The analysis does not prove that transfer spending caused tactical efficiency improvements.
 
 ---
 
 ## 5.7 Cross-SQ Synthesis: A Dynamic & Bidirectional Conceptual Framework
 
-Integrating the findings across all six sub-research questions, the author rejects a simplistic, linear pipeline that assumes financial resources mechanically translate into sporting success. Instead, the author synthesizes the empirical evidence into a **dynamic, bidirectional feedback framework**:
+Integrating the findings across all six sub-research questions, I reject a simplistic, linear pipeline that assumes financial resources mechanically translate into sporting success. Instead, the author synthesizes the empirical evidence into a **dynamic, bidirectional feedback framework**:
 
 ```
            ┌────────────────────────────────────────┐
@@ -404,8 +391,8 @@ Integrating the findings across all six sub-research questions, the author rejec
 
 ### Key Dimensions of the Synthesis:
 1. **Enabling vs Deterministic Resources:** Financial resources (SQ1) and borrowing capacity (SQ2) provide the necessary liquidity to undertake squad investments, but they do not guarantee competitive dominance.
-2. **Allocation Quality over Gross Volume:** The weak association of statutory staff costs (SQ4) contrasted with the positive association of transfer spend with process metrics (SQ3/SQ6) supports the author’s interpretive framework: capital outlays are best evaluated through the lens of resource allocation quality—aligning squad acquisitions with tactical systems—rather than gross expenditure volume alone (Principle 13).
-3. **Process Stability vs Outcome Variance:** Transfer investments correlate more strongly with underlying expected metrics ($xGD, xPTS \approx +0.60\text{--}+0.62$) than with realized points ($r = +0.39$), consistent with the author’s interpretation that capital additions are more closely aligned with underlying tactical process metrics, whereas match-level points remain subject to short-term stochastic variance.
+2. **Allocation Quality over Gross Volume:** The weak association of statutory staff costs (SQ4) contrasted with the positive association of transfer spend with process metrics (SQ3/SQ6) supports my interpretive framework: capital outlays are best evaluated through the lens of resource allocation quality—aligning squad acquisitions with tactical systems—rather than gross expenditure volume alone.
+3. **Tactical Chance Creation vs Match Luck:** Transfer spending showed much stronger connections to underlying tactical metrics ($xGD, xPTS \approx +0.60\text{--}+0.62$) than to actual league points ($r = +0.39$). In my view, this makes intuitive football sense: investing in top talent consistently improves the team's underlying chance creation, but match points over a 38-game season are still influenced by referee calls, injuries, and short-term luck.
 4. **Endogenous Feedback:** Sporting success (SQ3/SQ5) feeds directly back into financial turnover (SQ1) through UEFA Champions League distributions and commercial expansion, establishing that finance and sporting performance are mutually reinforcing across multi-year cycles.
 
 ---
@@ -427,9 +414,9 @@ To maintain the highest standards of academic integrity, the conclusions of this
 
 This study conducted an independent longitudinal investigation of the relationships linking financial resources, capital investment decisions, and sporting performance at Arsenal Football Club from 2015/16 through 2024/25. Utilizing a 10-season panel dataset ($N=10$) integrated across audited statutory financial statements, a complete 128-transaction transfer census, and official match analytics, the empirical findings demonstrate that:
 
-1. **Transfer Investment Correlates with Tactical Stability:** Permanent gross transfer expenditures exhibited consistent, positive lagged associations with underlying tactical chance creation ($xGD$, $r = +0.5982$) and expected points ($xPTS$, $r = +0.6189$), maintaining complete sign invariance across all Leave-One-Season-Out iterations. However, associations with realized match outcome points ($PPG$, $r = +0.3911$) were substantially lower, reflecting the inherent stochastic variance of single-season football outcomes.
-2. **Absence of Wage Dominance in a Single Club:** Contrary to cross-sectional multi-club literature, statutory staff costs exhibited no stable predictive relationship with subsequent points ($r = +0.0516$, Spearman $\rho = -0.0333$), reversing sign under LOO analysis, which the author interprets as reflecting the broad composition of statutory payroll (which bundles non-playing organizational overhead) and multi-year contractual inertia during periods of squad decline.
-3. **Debt-Enabled Restructuring:** Transfer investment cycles were more strongly associated with net balance sheet borrowing ($r = +0.5906$) than with contemporaneous turnover ($r = +0.3659$), which the author interprets as reflecting reliance on shareholder credit facilities during capital-intensive rebuilding cycles.
+1. **Transfer Spending Correlates with Underlying Chance Creation:** Transfer spending showed consistent, positive relationships with tactical chance creation ($xGD$, $r = +0.5982$) and expected points ($xPTS$, $r = +0.6189$) in the following season. However, the connection to actual points won ($PPG$, $r = +0.3911$) was noticeably lower, reflecting the natural unpredictability and match luck in any single football season.
+2. **Absence of Wage Dominance in a Single Club:** Contrary to cross-sectional multi-club literature, statutory staff costs exhibited no stable predictive relationship with subsequent points ($r = +0.0516$, Spearman $\rho = -0.0333$), reversing sign under LOO analysis, which I interpret as reflecting the broad composition of statutory payroll (which bundles non-playing organizational overhead) and multi-year contractual inertia during periods of squad decline.
+3. **Debt-Enabled Restructuring:** Transfer investment cycles were more strongly associated with net balance sheet borrowing ($r = +0.5906$) than with contemporaneous turnover ($r = +0.3659$), which I interpret as reflecting reliance on shareholder credit facilities during capital-intensive rebuilding cycles.
 4. **Dynamic Bidirectionality:** The relationship between finance and performance operates as a reciprocal feedback loop: financial capacity enables tactical recruitment, but on-pitch success is essential to sustain top-line revenue expansion.
 
 Ultimately, financial resources function as necessary enabling inputs rather than deterministic drivers of sporting success. In professional football, the translation of capital outlays into competitive performance is critically mediated by strategic allocation quality, tactical alignment, and organizational cohesion.
