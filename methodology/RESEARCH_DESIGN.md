@@ -283,7 +283,7 @@ Because the research window consists of exactly 10 completed seasons ($N = 10$, 
 
 ---
 
-## 12. Core Zero-Trust Research Principles (Rules 1–12)
+## 12. Core Empirical Data Integrity Principles (Rules 1–12)
 
 1. **RULE 1 (Verification):** NO VERIFIABLE SOURCE = NO OBSERVATION.
 2. **RULE 2 (Defensibility):** NO PRIMARY OR DEFENSIBLE SECONDARY SOURCE = DO NOT USE THE VARIABLE.
