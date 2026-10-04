@@ -140,7 +140,7 @@ Table 1 summarizes the descriptive statistics for the core financial, investment
 
 ### 4.2 Pre-Specified Association Analysis
 
-Table 2 presents the empirical results for the 17 primary pre-specified bivariate specifications across Sub-RQs SQ2–SQ6 (`PHASE5B_ASSOCIATION_RESULTS.csv`).
+Table 2 presents the empirical results for the 17 primary pre-specified bivariate specifications across Sub-RQs SQ2–SQ6 (`results/association_results.md`).
 
 **Table 2:** Bivariate Association Estimates for 17 Primary Pre-Specified Specifications Across Sub-RQs SQ2–SQ6.
 
@@ -170,7 +170,7 @@ Table 2 presents the empirical results for the 17 primary pre-specified bivariat
 
 ### 4.3 Robustness & Leave-One-Season-Out Sensitivity Analysis
 
-Table 3 summarizes the Leave-One-Season-Out (LOO) sensitivity analysis and COVID exclusion checks for the 17 primary specifications (`PHASE5C_ROBUSTNESS_RESULTS.csv`).
+Table 3 summarizes the Leave-One-Season-Out (LOO) sensitivity analysis and COVID exclusion checks for the 17 primary specifications (`results/robustness_results.md`).
 
 **Table 3:** Robustness and Sensitivity Analysis: Leave-One-Season-Out (LOO) and COVID-19 Exclusion Checks.
 

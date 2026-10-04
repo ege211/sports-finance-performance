@@ -119,6 +119,12 @@ sports-finance-performance/
 
 ---
 
-## 8. License
+## 8. Research Methodology & Transparency Note
+
+As an independent 12th-grade student researcher and high-school athlete, I formulated the core research questions, collected and verified the 10-season statutory financial accounts of Arsenal Holdings Limited from the UK Companies House registry, compiled the 128-transaction transfer census, and conducted the non-causal statistical correlation and Leave-One-Season-Out sensitivity analysis. I utilized AI tools for editorial review, Markdown formatting, and data structuring. All empirical analyses, interpretations, and conclusions are strictly my own.
+
+---
+
+## 9. License
 
 This project is licensed under the [MIT License](LICENSE).
