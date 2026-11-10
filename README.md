@@ -1,5 +1,5 @@
 # Sports Finance & Sporting Performance
-### A Longitudinal Case Study of Arsenal Football Club (2015/16–2024/25)
+### A Longitudinal Case Study of Arsenal Football Club (2015/16 to 2024/25)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -12,7 +12,7 @@
 ## 1. Student Researcher's Note & Motivation
 
 **Author:** Ege Umut Can  
-**School:** FMV Özel Ispartakule Işık High School, Istanbul (Class of 2027)  
+**School:** FMV Işık High School, Istanbul (Class of 2027)  
 **Profile:** Student-Athlete (High School Football Team) & AP Economics Student  
 
 ### Why I Undertook This Research:
@@ -68,22 +68,22 @@ To organize the study methodologically, I structured the analysis across four co
 
 ## 4. Data Sources & Empirical Methodology
 
-### Data Provenance (100% Publicly Verifiable):
+### Data Provenance (Public Sources):
 - **Statutory Corporate Accounts:** Audited annual financial statements of Arsenal Holdings Limited and Arsenal Football Club plc filed with the UK Companies House registry.
-- **Transfer Census:** Comprehensive census of 128 individual player transactions across the 10 seasons, cross-referenced against statutory registration additions.
+- **Transfer Census:** Census of 128 individual player transactions across the 10 seasons, cross-referenced against statutory registration additions.
 - **Match & Advanced Analytics:** Official Premier League competition tables, cup progression, and advanced performance metrics (expected goals [$xG$], expected points [$xPTS$]) from Understat.
 
 ### Methodological Principles & Limitations:
 - **Observational, Non-Causal Design:** As a high-school student working with a single-club time-series ($N=10$ seasons), this study strictly measures **statistical associations and co-movements**. It does not claim deterministic causality.
-- **Correlation & Robustness:** Evaluated using Pearson correlation ($r$), Spearman rank correlation ($\rho$), and Leave-One-Season-Out (LOO) sensitivity checks to ensure individual outlier years (like the COVID-19 season) do not distort the broader decade trend.
+- **Correlation & Robustness:** Evaluated using Pearson correlation ($r$), Spearman rank correlation ($\rho$), and Leave-One-Season-Out (LOO) sensitivity checks to see whether single seasons (like the COVID-19 season) drive the result.
 
 ---
 
 ## 5. Key Empirical Takeaways
 
 1. **Top-Line Expansion (+97.1%):** Arsenal's football turnover expanded from £350.6m in 2015/16 to £691.0m in 2024/25, driven by commercial growth and Champions League return.
-2. **Transfer Spending & the Lag Effect:** Contemporaneous transfer spend showed modest correlation with same-season points, but exhibited substantially stronger positive associations with pitch performance **in the subsequent season ($t \to t+1$, $r = +0.6189$ with xPTS)**. This quantitatively illustrates the time required for squad investments to mature.
-3. **The Limits of Payroll Alone:** Statutory staff costs showed weak correlation with league points ($r = +0.0516$), proving that simply carrying a high wage bill does not guarantee sporting success without efficient recruitment and squad balance.
+2. **Transfer Spending & the Lag Effect:** Contemporaneous transfer spend showed modest correlation with same-season points, but was more closely linked to the next season's expected points (**$t \to t+1$, $r = 0.62$ with xPTS, nine season pairs**; the paper reports $p = 0.0756$). I treat this as a pattern to test further, not as proof that investments need time to mature.
+3. **The Limits of Payroll Alone:** Statutory staff costs showed weak correlation with league points ($r = +0.0516$), which suggests that a high wage bill alone does not go with sporting success.
 
 ---
 
@@ -108,20 +108,20 @@ sports-finance-performance/
 ```bibtex
 @misc{can2026arsenal,
   author       = {Ege Umut Can},
-  title        = {Financial Resources, Investment Decisions, and Sporting Performance: A Longitudinal Investigation of Arsenal Football Club (2015/16--2024/25)},
+  title        = {Financial Resources, Investment Decisions, and Sporting Performance: A Longitudinal Investigation of Arsenal Football Club, 2015/16 to 2024/25},
   year         = {2026},
-  school       = {FMV Işık High School},
+  school       = {FMV Işık High School, Istanbul},
   howpublished = {\url{https://github.com/ege211/sports-finance-performance}}
 }
 ```
 
-**Contact:** Ege Umut Can — [macroeconomic-data-lab](https://ege211.github.io/macroeconomic-data-lab/) | [GitHub Profile](https://github.com/ege211)
+**Contact:** Ege Umut Can | [macroeconomic-data-lab](https://ege211.github.io/macroeconomic-data-lab/) | [GitHub Profile](https://github.com/ege211)
 
 ---
 
 ## 8. Research Methodology & Transparency Note
 
-As an independent 12th-grade student researcher and high-school athlete, I formulated the core research questions, collected and verified the 10-season statutory financial accounts of Arsenal Holdings Limited from the UK Companies House registry, compiled the 128-transaction transfer census, and conducted the non-causal statistical correlation and Leave-One-Season-Out sensitivity analysis. I utilized AI tools for editorial review, Markdown formatting, and data structuring. All empirical analyses, interpretations, and conclusions are strictly my own.
+As an independent 12th-grade student researcher and high-school athlete, I formulated the core research questions, collected and checked the 10-season statutory financial accounts of Arsenal Holdings Limited from the UK Companies House registry, compiled the 128-transaction transfer census, and conducted the non-causal statistical correlation and Leave-One-Season-Out sensitivity analysis. I utilized AI tools for editorial review, Markdown formatting, and data structuring. All empirical analyses, interpretations, and conclusions are strictly my own.
 
 ---
 

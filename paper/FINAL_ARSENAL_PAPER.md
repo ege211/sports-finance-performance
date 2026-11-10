@@ -2,7 +2,7 @@
 
 **Author:** Ege Umut Can  
 **Academic Level:** Independent High-School Student Research Project  
-**School:** FMV Özel Ispartakule Işık High School, Istanbul (Class of 2027)  
+**School:** FMV Işık High School, Istanbul (Class of 2027)  
 **Study Scope:** 10 Completed Premier League Seasons (2015/16 through 2024/25)  
 **Primary Sources:** Companies House Statutory Accounts (Arsenal Holdings Ltd), Transfer Census, and Premier League / Understat Analytics  
 
@@ -29,7 +29,7 @@ However, multi-club cross-sectional panel analyses often mask the intricate oper
 Arsenal Football Club (1886) provides a compelling longitudinal case study. Between the 2015/16 and 2024/25 seasons, the club experienced:
 1. A transitional sporting trajectory from the final years of Arsène Wenger’s 22-year tenure (2015/16–2017/18), through the short-lived managerial tenure of Unai Emery and interim leadership of Freddie Ljungberg (2018/19–2019/20), to a comprehensive squad rebuilding process under Mikel Arteta (2019/20–2024/25).
 2. A structural shift in ownership and capital structure in 2018, when Kroenke Sports & Entertainment (KSE UK Inc.) acquired 100% full ownership, subsequently refinancing historical fixed-rate stadium bonds with subordinated shareholder loan facilities.
-3. Severe operational disruptions, including a four-season absence from the UEFA Champions League (2019/20–2022/23) and the exogenous shock of the COVID-19 pandemic, which eliminated stadium matchday revenues and compressed sporting schedules.
+3. Severe operational disruptions, including a six-season absence from the UEFA Champions League (2017/18 to 2022/23) and the exogenous shock of the COVID-19 pandemic, which eliminated stadium matchday revenues and compressed sporting schedules.
 
 ### Main Research Question
 To analyze this decade systematically, the study’s central inquiry is locked as:
