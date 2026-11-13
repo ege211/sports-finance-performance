@@ -9,6 +9,8 @@
 
 ---
 
+![Arsenal revenue mix and wages as a share of revenue, 2015/16 to 2024/25](results/figures/arsenal_financial_sustainability.png)
+
 ## 1. Student Researcher's Note & Motivation
 
 **Author:** Ege Umut Can  
@@ -84,6 +86,7 @@ To organize the study methodologically, I structured the analysis across four co
 1. **Top-Line Expansion (+97.1%):** Arsenal's football turnover expanded from £350.6m in 2015/16 to £691.0m in 2024/25, driven by commercial growth and Champions League return.
 2. **Transfer Spending & the Lag Effect:** Contemporaneous transfer spend showed modest correlation with same-season points, but was more closely linked to the next season's expected points (**$t \to t+1$, $r = 0.62$ with xPTS, nine season pairs**; the paper reports $p = 0.0756$). I treat this as a pattern to test further, not as proof that investments need time to mature.
 3. **The Limits of Payroll Alone:** Statutory staff costs showed weak correlation with league points ($r = +0.0516$), which suggests that a high wage bill alone does not go with sporting success.
+4. **Revenue mix, wages and debt:** commercial revenue grew from £109.8m to £268.0m, and wages fell from 74.6% of revenue in 2020/21 (when matchday income was £3.8m because of COVID) to 50.2% in 2024/25. Net debt rose from £6.5m in 2015/16 to £283.0m in 2024/25.
 
 ---
 
